@@ -1,0 +1,241 @@
+Body {
+    background-image: url(Music.jpeg);
+    background-attachment: scroll;
+    text-align: center;
+    
+    }
+    h1{
+        opacity: 0.83;
+        margin: auto;
+
+    }
+    #muse{
+        border-radius: 17%;
+    }
+    .redirect{
+        color:white;
+        border-style: none;
+        background-color: rgb(231, 231, 231, 0);
+        font-size: 30px;
+        padding-right: 100px;
+        float: left;
+        text-decoration-line: underline;
+        cursor: pointer; 
+    }
+    .redirect:hover {
+        font-size: 37px;
+    }
+    h5 {
+        background-color: rgb(255, 255, 255, 0);
+        margin: 10px 50px 10px 50px;
+        color: rgb(254, 254, 254);
+        font-family:monospace;
+        text-align:center;
+        font-size:25px;
+        border-style:none;
+        vertical-align: middle;
+        width: 1870px;
+        margin: auto;
+    }
+    h2{
+        background-color: rgb(255, 255, 255);
+        opacity: 0.75;
+        margin: 10px 50px 10px 50px;
+        color: rgb(0, 0, 0);
+        font-family:monospace;
+        text-align:center;
+        font-size:18px;
+        border-style:double;
+        border-width:6px 6px ;
+        border-color:rgb(49, 49, 46);
+        border-radius:8px;
+        vertical-align: middle;
+        width: 500px;
+        margin: auto;
+        
+    }
+    P {
+        background-color: rgb(231, 231, 231, 0.5);
+        margin: 40px 500px 20px 500px;
+        color:rgb(255, 255, 255);
+        font-family:'Times New Roman', Times, serif;
+        font-size: 30px;
+        text-shadow:2px 2px 4px #252525;
+        text-align: center;
+        border-style:solid;
+        border-width:5px 3px; 
+        border-color:rgb(64, 64, 64);
+        border-radius: 5px;
+        outline: solid rgb(151, 121, 96);
+        margin: auto;
+        width: 500px;
+    }
+    div { 
+        background-color: rgb(255, 255, 255);
+        opacity: 0.95;
+        margin: 10px 90px 10px 90px;
+        color: rgb(0, 0, 0);
+        font-family:monospace;
+        text-align:center;
+        font-size:17px;
+        border-style:double;
+        border-width:6px 6px ;
+        border-color:rgb(49, 49, 46);
+        border-radius:12px;
+        vertical-align: middle;
+        width: 300px;
+        margin: auto;
+    }
+    .select {
+        padding: 5px 5px;
+        color: rgb(62, 58, 58);
+        background-color: rgb(205, 160, 87);
+        border: 1px solid;
+        border-radius: 8px;
+        cursor:pointer;
+        vertical-align: middle;
+    }
+    .select:focus,
+    .select:hover {
+        outline: tan;
+        border: 3px solid 
+    }
+
+    #redeem{
+        background-color:rgb(205, 160, 87);
+        border-radius: 8px;
+        border-style:double;
+        border-color: black;
+        width: 250px;
+        height: 30px;
+        opacity: 0.75;
+        font-size:17px;
+        text-align: center;
+    }
+
+    input[type = submit] {
+        background-color:rgb(219, 210, 195);
+        font-size: 25px;
+        color: rgb(27, 16, 6);
+        border-radius: 5%;
+        opacity:0.75;
+        width: 300px;
+        height: 50px;
+        font-family: monospace;
+    }
+    h3 { 
+        background-color: rgb(255, 255, 255);
+        opacity: 0.75;
+        margin: 10px 90px 10px 90px;
+        color: rgb(0, 0, 0);
+        font-family:monospace;
+        text-align:center;
+        font-size:17px;
+        border-style:double;
+        border-width:6px 6px ;
+        border-color:rgb(49, 49, 46);
+        border-radius:12px;
+        vertical-align: middle;
+        width: 300px;
+        margin: auto;
+    }
+    .popup {
+        background-color: rgb(64, 64, 64);
+        width: 600px;
+        padding: 30px 40px;
+        position: absolute;
+        transform:translate(-50%, -50%);
+        left: 50%;
+        top: 53%;
+        border-radius: 8px;
+        font-family: monospace;
+        display: none;
+    }
+
+    .popup button {
+        display: block;
+        margin: 0 0 20px auto;
+        background-color: transparent;
+        font-size: 30px;
+        color: #c5c5c5;
+        border: none;
+        outline: none;
+        cursor: pointer; 
+        
+    }
+
+    .popup p {
+        font-size: 25px;
+        text-align: justify;
+        margin: 20px 0;
+        font-family: monospace;
+    }
+
+    s {
+        display: block;
+        width: 150px;
+        position: relative;
+        margin:auto;
+        border-style: double;
+        opacity: 0.8;
+        text-align: center;
+        background-color: wheat;
+        text-decoration: none;
+        padding: 5px 0;
+    }
+    h4 {
+        background-color: rgb(255, 255, 255);
+        opacity: 0.75;
+        margin: 10px 90px 10px 90px;
+        color: rgb(0, 0, 0);
+        font-family:monospace;
+        text-align:center;
+        font-size:5px;
+        border-style:double;
+        border-width:6px 6px ;
+        border-color:rgb(49, 49, 46);
+        border-radius:12px;
+        vertical-align: middle;
+        width: 200px;
+        margin: auto;
+    }
+    #Enter {
+        background-color:rgb(209, 205, 200);
+        font-size: 20px;
+        color: rgb(27, 16, 6);
+        opacity:0.75;
+        width: 200px;
+        height: 30px;
+        font-family: monospace;
+        text-align: center;
+        border-style: double;
+        border-radius: 8px;
+        margin:auto;
+        padding-bottom: 10px;
+    }
+
+#Email {
+    background-color:rgb(205, 160, 87);
+    border-radius: 8px;
+    border-style:double;
+    border-color: black;
+    width: 250px;
+    height: 30px;
+    opacity: 0.75;
+    font-size:17px;
+    text-align: center;
+    margin-top: 10px;
+}
+
+#hp {
+    background-color:rgb(205, 160, 87);
+    border-radius: 8px;
+    border-style:double;
+    border-color: black;
+    width: 250px;
+    height: 30px;
+    opacity: 0.75;
+    font-size:17px;
+    text-align: center;
+    margin-top: 10px;
+}

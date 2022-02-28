@@ -1,0 +1,22 @@
+Body {
+    background-image: url(Music.jpeg);
+    background-attachment: scroll;
+    text-align: center;
+    
+    }
+
+h1 {
+    background-color: rgb(231, 231, 231, 0.8);
+    width: 500px;
+    border-style: double;
+    border-radius: 1%;
+}
+
+p{
+    background-color: rgb(231, 231, 231, 0.8);
+    border-style: dotted;
+    border-radius: 1%;
+    font-size: 25px;
+    text-align:left;
+    padding: 20px;
+}

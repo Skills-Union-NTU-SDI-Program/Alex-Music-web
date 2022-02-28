@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html> 
+<head>
+    <title>Coenlije Music Academy</title>
+    <link rel="icon" type="image/x-icon" href="LOGO.png">
+    <link href="Coenlije.css" rel="stylesheet" type="text/css">
+    <script src="https://kit.fontawesome.com/a076d05399.js"></script>
+    <script defer src="index.js"></script>  
+</head>
+<body>
+
+<h1>
+    <img src="LOGO.png" alt="Coen.Lije Music Academy" id="muse" class="center" width=350px height=228px>
+</h1>
+<button id="about" class="redirect">About us</button>
+<button id="gallery" class="redirect">Gallery</button>
+<br>
+<br>
+<br>
+<h5>
+  ----------------------------------------------------------------------------------------------------------------------------
+<h5>
+<br>
+<h2>
+    Click here to hear a song performed by our students!
+<br>
+<audio controls>
+    <source src="Gardens by the bay 90s copy.mp3" type="audio/mp3">
+  Your browser does not support the audio file.
+  </audio>
+</h2>
+<br>
+<p>
+    Location:
+    <select id="location" class="select">
+    <option disabled selected></option>
+  <option value="Anywhere">Anywhere</option>
+  <option value="North">North</option>
+  <option value="Central">Central</option>
+  <option value="East">East</option>
+  <option value="West">West</option>
+  <option value="Neast">North East</option>
+</select>
+</p>
+<br>
+<p>
+    Courses:
+    <select id="course" class="select">
+    <option disabled selected></option>
+  <option value="Guitar">Guitar</option>
+  <option value="Piano">Piano</option>
+  <option value="Vocals">Vocals</option>
+</select>
+</p>
+<br>
+<p>
+    Level:
+    <select id="level" class="select">
+    <option disabled selected></option>
+  <option value="Beginner">Beginner</option>
+  <option value="Intermediate">Intermediate</option>
+  <option value="Advanced">Advanced</option>
+</select>
+</p>
+<form>
+    <label for="redeem"></label><br>
+    <input type="text" placeholder="Enter redemption code" id="redeem" name="redeem">
+</form>
+  <br>
+<h2>  
+  <button onclick="getOption()">Search for courses</button>
+</h2>
+<br>
+<h2>
+  <span class="output">"Where words fail, music speaks"</span>
+</h2>
+<br>
+<div class="popup">
+  <button id="close">&times;</button>
+  <h2>Subscribe to our newletter for updates and special promotions! Do it now and get a discount code for 10% off your next class!</h2>
+    <form>
+      <input type="text" id="Email" placeholder="Email address: "/>
+      <input type="text" id="hp" placeholder="Handphone number: +65"/>
+      <button id="Enter" onclick="getVal()">Sign me up!</button>
+  </form>
+</div>
+</body>
+</html>
